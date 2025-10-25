@@ -197,16 +197,23 @@ PRODUCT_PACKAGES += \
     libApeSwDec \
     libFlacSwDec \
     libOmxAacDec \
+    libOmxAacEnc \
     libOmxAlacDec \
     libOmxAlacDecSw \
     libOmxAmrDec \
+    libOmxAmrEnc \
     libOmxAmrwbplusDec \
     libOmxApeDec \
     libOmxApeDecSw \
     libOmxDsdDec \
     libOmxEvrcDec \
+    libOmxEvrcEnc \
     libOmxG711Dec \
+    libOmxG711Enc \
     libOmxQcelp13Dec \
+    libOmxQcelp13Enc \
+    libOmxVdec \
+    libOmxVenc \
     libOmxWmaDec \
     libacdb-fts \
     libacdbloader \
@@ -217,6 +224,7 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudio_log_utils \
     libaudioalsa \
+    libc2dcolorconvert \
     libdeccfg \
     libdrc \
     libdsd2pcm \
@@ -226,6 +234,7 @@ PRODUCT_PACKAGES += \
     libgcs-osal \
     libgcs \
     libhdmipassthru \
+    libhypv_intercept \
     libqtigef \
     libsmwrapper \
     libstagefright_soft_ac4dec \
