@@ -271,6 +271,7 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
+    audio.primary.X00QD \
     sensors.sdm660_64 \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
@@ -285,6 +286,9 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libaudio_log_utils \
+    libaudioalsa \
+    libaudioconfigstore \
     libaudioparsers \
     libc2d30_bltlib \
     libcdsp_default_listener \
@@ -328,6 +332,7 @@ PRODUCT_PACKAGES += \
     libsubsystem_control \
     libsysmon_cdsp_skel \
     libthermalclient \
+    libtinycompress \
     libtinyxml2_1 \
     sensors.ALSPS \
     sensors.ssc \
@@ -342,7 +347,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
-    audio.primary.X00QD \
     camera.sdm660 \
     libAlacSwDec \
     libApeSwDec \
@@ -400,8 +404,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_picselfie_algorithm \
     libarcsoft_videostabilizer \
     libaudcal \
-    libaudio_log_utils \
-    libaudioalsa \
     libc2dcolorconvert \
     libchromatix_csidtg_common \
     libchromatix_csidtg_cpp_preview \
@@ -1693,8 +1695,6 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k5e9yu05_mono_zsl_preview \
     libchromatix_s5k5e9yu05_mono_zsl_video \
     libdepthmapwrapper \
-    libdrc \
-    libdsd2pcm \
     libfastcvopt \
     libflash_pmic \
     libgcs-calwrapper \
@@ -1896,6 +1896,7 @@ PRODUCT_PACKAGES += \
     libremosaic_daemon \
     libseemore \
     libsmwrapper \
+    libsurround_3mic_proc \
     libvideoutils \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0_vendor \
