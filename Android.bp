@@ -6,8 +6,14 @@ soong_namespace {
     imports: [
         "device/asus/X00QD",
         "device/asus/X00QD/qcom-caf",
+        "hardware/qcom-caf/sdm660",
         "hardware/qcom-caf/wlan",
+        "vendor/qcom/opensource/commonsys/display",
+        "vendor/qcom/opensource/commonsys-intf/display",
+        "vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um",
+        "hardware/lineage/compat",
         "vendor/qcom/opensource/dataservices",
+        "vendor/qcom/opensource/display",
     ],
 }
 
@@ -4358,7 +4364,6 @@ cc_prebuilt_library_shared {
                 "libacdbrtac",
                 "libadiertac",
                 "libacdb-fts",
-                "libion",
                 "libc++",
                 "libc",
                 "libm",
@@ -47429,7 +47434,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.radio@1.5",
                 "android.hardware.radio.deprecated@1.0",
                 "qtimutex",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.7",
                 "libvndksupport",
                 "libbase",
                 "libz",
