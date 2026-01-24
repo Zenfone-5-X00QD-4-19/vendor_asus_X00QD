@@ -4364,6 +4364,7 @@ cc_prebuilt_library_shared {
                 "libacdbrtac",
                 "libadiertac",
                 "libacdb-fts",
+                "libion",
                 "libc++",
                 "libc",
                 "libm",
